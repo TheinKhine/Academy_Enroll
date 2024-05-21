@@ -1,6 +1,15 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>AdminLTE 3 | Dashboard</title>
+<style>
+    .nav-item p {
+      color: white;
+      text-align: left;
+    }
+    .main-sidebar{
+        background-color: #2A629A;
+    }
+  </style>
 
 <!-- Google Font: Source Sans Pro -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
