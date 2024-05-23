@@ -21,10 +21,10 @@ class StudentController extends Controller
 
     }
 
-    public function show()
-    {
-        return view('student.show');
-    }
+    // public function show()
+    // {
+    //     return view('student.show');
+    // }
 
     public function edit()
     {
@@ -38,6 +38,6 @@ class StudentController extends Controller
 
     public function destroy()
     {
-        
+
     }
 }

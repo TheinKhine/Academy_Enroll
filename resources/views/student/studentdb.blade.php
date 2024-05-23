@@ -43,7 +43,7 @@
       <td>All in one 2 years course</td>
       <td>03/12/2022</td>
       <td>
-        <a class="btn btn-blue" href="{{ route('student.show') }}">
+        <a class="btn btn-blue" >
           View
         </a>
         <a class="btn btn-pink">
