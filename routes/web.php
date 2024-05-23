@@ -1,9 +1,12 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Models\Course;
 
 Route::get('/', function () {
-    return view('welcome');
+    $courses = Course::all();
+        // return $courses;
+    return view('welcome', compact('courses'));
 });
 
 Auth::routes();
