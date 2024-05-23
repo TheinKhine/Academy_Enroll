@@ -5,13 +5,16 @@ use App\Http\Controllers\MainController;
 use App\Http\Controllers\StudentController;
 use App\Http\Controllers\TeacherController;
 use Illuminate\Support\Facades\Route;
+use App\Models\Course;
 
 // Route::get('/', function () {
 //     return view('welcome');
 // });
 
 Route::get('/', function () {
-    return view('main.maindb');
+    $courses = Course::all();
+        // return $courses;
+    return view('main.maindb', compact('courses'));
 })->middleware('auth');
 
 Auth::routes();
